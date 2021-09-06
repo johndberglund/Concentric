@@ -1,0 +1,117 @@
+<html>
+<body>
+<img src = "logo.png">
+<p><b>
+Concentric Program Notes 
+</b>
+<p>
+This is a program to create concentric rings of polygons, and to allow you to decorate them in the Islamic style. See the paper <a href="http://archive.bridgesmathart.org/2021/bridges2021-31.html">“Beyond the Great 96”</a> presented at the 2021 Bridges program.
+<p>
+The program is quite self-explanatory. Just push buttons and slide sliders. We start from the left and add columns of tiles to build up a tiling that we will wrap around a central ring.
+<p>
+<img src = "screen.png">
+<p>
+Here’s an example to get you started:
+<p>
+Slide the N slider to 10. (After clicking, you can also use the left and right arrow buttons to do small adjustments.)
+<p>
+Hit these column buttons in order:
+<p>
+<img src = "col5e.png"><img src = "col5v.png"><img src = "col3v2.png">
+<p>
+Then the mode button:
+<p>
+<img src = "star.png">
+<p>
+This should give you a copy of our logo’s design:
+<p>
+<img src = "logo.png">
+<p>
+When I want to start a new tiling, I reload the page.
+<p>
+It may help to first choose what how many sides you want in your center n-gon by sliding the N slider. 
+<p>
+<u>Column Buttons</u>
+<br>
+The column buttons change type depending on the shape of the edge that needs to be matched. Certain columns fit best with small n. Certain fit best with larger n. Experiment. You can always undo. Some buttons force you to use an even number for n.
+<p>
+The column buttons are grouped by the Left/Right turns that you make traveling along the left edge. You start with the pattern going Straight, with no turns. The left edges will fit against the current tiling. The right edges will be the new outside of the tiling. Here are all the column buttons.
+<p>
+<img src = "columns.png">
+<p>
+When it comes time to fit in a new column, look at the ring area. You can see how big the angles you need are. The program will squeeze in whatever you tell it to, but the closer the angles, the better the fit, and the nicer the tiling may look. 
+<p>
+Depending on the columns you choose, the edge lengths may grow or shrink. It's traditional to try to keep the edge lengths as constant as you can. If you want to decrease the edge length, try finding buttons that have more segments on the right side, or that have a wider angle on the left side. If you want to increase the edge length, find buttons that keep the same number of segments on the right side and use smaller angles on the left side.
+<p>
+If you hover over a button, it will tell you what it does. The column buttons tell you what size the right edge is. This size is given in the list of all column buttons. In general, we want to slowly decrease the size until we reach .5 which is where we usually double the number of sides and restart. Restarting is shown in the list by “x 2”. There are some shapes that go a little below .5. These shapes would work best with a large n. With a small n, we have to get to .5 faster.
+<p>
+For a given tiling, you might try changing the N slider to make the edge lengths match for the inner and the outer edges. This can't do anything for the in-between parts.
+<p>
+<u>Mode Buttons</u>
+<br>
+The mode buttons tell how the tiling is decorated. I prefer to run in base tiling mode so I can see the shapes of the tiles. You can also run in star or rosette mode, if you like. 
+<p>
+<img src = "mode.png">
+<p>
+Here is the same tiling in all three modes.
+<p>
+<img src = "mode_base.png"><img src = "mode_star.png"><img src = "mode_rosette.png">
+<p>
+In star mode, an extra slider appears. You can play with the angle if you want. One cool thing that I only noticed after I made the program is that if you use star mode, very small angles and very large angles look similar – but with the colors reversed. So very small angles give you pointy purple stars and a white background. Very large angles give you pointy white stars and a purple background. Here’s a different tiling in star mode with very small and very large angles.
+<p>
+<img src = "mode_star_small.png"><img src = "mode_star_large.png">
+<p>
+<u>Saving</u>
+<br>
+You can download PNG image files or SVG files of either the stack or the ring with the save buttons.
+<p>
+<u>More examples</u>
+<p>
+Set n = 6. Then use this button: 
+<p>
+<img src = "col4e3v.png">
+<p>
+to get this:
+<p>
+<img src = "n6.png">
+<p>
+Note that this button doubles the numbers of edges in one step – so it works best with very small n.
+<p>
+Or set n=15.
+<p>
+Then use these four column buttons:
+<p>
+<img src = "col3e.png"><img src = "col4v.png"><img src = "col5v.png"><img src = "col3v2.png">
+<p>
+to get this:
+<p>
+<img src = "n15.png">
+<p>
+These are both examples of small n.
+<p>
+Here’s an example of large n – the example given in the paper.
+<p>
+Set n = 184.
+<p>
+Choose these buttons:
+<p>
+<img src = "big_buttons.png">
+<p>
+then
+<p>
+<img src = "rosette.png">
+<p>
+to get this big image
+<p>
+<img src = "big.png">
+<p>
+Play with it. Have fun.
+<p>
+<a href="help2.html">Technical Notes</a>
+<p>
+<a href="license.html">License</a>
+<p>
+
+
+</body>
+</html>
